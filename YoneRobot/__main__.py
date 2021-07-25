@@ -74,24 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *yone*
-`I'm here to help you manage your groups! Hit` *📚Commands*   
+`𝙃𝙖𝙞` [😍](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `𝙈𝙮 𝙉𝙖𝙢𝙚 𝙄𝙨 ✨` *🇨𝗔𝗧 🇬𝗜𝗥𝗟✨*
+`𝙞𝙢 𝙃𝙚𝙧𝙚 𝙏𝙤 𝙃𝙚𝙡𝙥 𝙔𝙤𝙪 𝙈𝙖𝙣𝙖𝙜𝙚 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥𝙨 !! 𝙃𝙞𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🔥` *ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊🔶*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD YONE TO YOUR GROUP ➕️", url="t.me/Yone_Robot?startgroup=true"),
+            text="🔅𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣🔅", url="t.me/Yone_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="yone_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="𝔸𝕓𝕠𝕦𝕥 🔶", callback_data="yone_"),
+        InlineKeyboardButton(text="ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊🔶", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🤴 OWNER", url="https://t.me/A_viyu"),
+            text="🔱𝙊𝙒𝙉𝙀𝙍🔱", url="https://t.me/A_viyu"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Kora_Support"
+            text="𝕊𝕌ℙℙ𝕆ℝ𝕋🔶", url="https://t.me/Kora_Support"
         ),
     ],
 ]
